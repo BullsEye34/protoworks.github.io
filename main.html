@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Proto Works</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
+    <script>
+    window.onload = function() {
+            lax.setup() // init
+
+            const updateLax = () => {
+                lax.update(window.scrollY)
+                window.requestAnimationFrame(updateLax)
+            }
+
+            window.requestAnimationFrame(updateLax)
+        }
+    </script>
+    
+</head>
+<body>
+    <section class="Introd">
+        <h1>
+            Proto Works
+        </h1>
+        <div class="gear "> <center> <img class="im lax" data-lax-preset="spin" src="img/1.png" alt=""></center></div>
+        <p>For All Your Machining Needs.</p>
+        
+    </section>
+    <section class="Order">
+        <h1 class="lax" data-lax-preset="blurIn">
+            Order Now
+        </h1>
+        <div><center>
+            <div class="mdc-card lax" data-lax-preset="fadeInOut blurInOut">
+               <h4> Click Here!</h4>
+            </div>
+        </center>
+        </div>
+    </section>
+    <section class="About">
+            <h1 class="lax" data-lax-preset="blurInOut fadeInOut">
+                About Us
+            </h1>
+            <p class="first lax" data-lax-preset="leftToRight-0.2">
+                We are a group of people, Trying to make it easier for you, By helping you in all your machining needs.
+            </p>
+            <br><br>
+            <p class="right lax" data-lax-preset="rightToLeft-0.2">
+                We started off as a team of 4 amazing people.
+            </p>
+            <br><br>
+            
+            <br><br>
+            <p class="lax" data-lax-preset="leftToRight-0.2">
+                We make laser cutting and laser etching easier and more organised.
+            </p>
+            <br><br>    
+            <p class="right lax" data-lax-preset="rightToLeft-0.2">
+                We Bring together other vendors at a same choice for you to choose.
+            </p>
+        </section>
+    <section class="Contact">
+        <h1 class="lax" data-lax-preset="fadeIn" > 
+            Contact Us
+        </h1>
+        <div><center>
+                <div class="mdc-card lax" data-lax-preset="linger">
+                   <h4>Call Us</h4>
+                </div>
+            </center>
+        </div>
+    </section>
+    <section class="login">
+        <h1 class="lax" data-lax-preset="fadeIn blurIn">
+            Login Here
+        </h1>
+        <div><center>
+            <div class="mdc-card lax" data-lax-preset="fadeIn blurIn">
+                <div style="padding-top: 3em;">
+                        <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--no-label">
+                                <input type="text" class="mdc-text-field__input" aria-label="Label" placeholder="Username">
+                                <div class="mdc-notched-outline">
+                                  <div class="mdc-notched-outline__leading"></div>
+                                  <div class="mdc-notched-outline__trailing"></div>
+                                </div>
+                              </div>
+                    <br>
+                    <br>
+                    <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--no-label">
+                            <input type="password" class="mdc-text-field__input" aria-label="Label" placeholder="Password">
+                            <div class="mdc-notched-outline">
+                              <div class="mdc-notched-outline__leading"></div>
+                              <div class="mdc-notched-outline__trailing"></div>
+                            </div>
+                          </div>
+                </div>
+                <br><br>
+                <div>
+                        <button class="mdc-button mdc-button--outlined">Sign In</button>
+                        <button class="mdc-button mdc-button--outlined" style="color: purple; border-color: purple;">Sign Up</button>
+
+                </div>
+                <br>
+                <div>
+                <button class="mdc-button mdc-button--outlined" style="color: green; border-color: green;">Forgot Password?</button>
+            </div>
+            </div>
+        </center>
+        </div>
+    </section>
+    <footer>
+        <h3>Proto Works</h3>
+        <br>
+        <caption>For All Your Machining Needs.</caption>
+        <p>&copy; 2019 Proto Works</p>
+    </footer>
+</body>
+</html>

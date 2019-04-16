@@ -100,6 +100,185 @@ section.visit .mdc-card {
   background-color: orange;
 }
 
+section.Introd {
+  background: #04323d;
+  padding-top: 10em;
+  height: calc(100vh-10em);
+}
+
+section.Introd div.gear {
+  size: 10%;
+  width: 1em;
+  position: absolute;
+  top: calc(100vh/5);
+  left: calc(100vw/3);
+}
+
+section.Introd img.im {
+  size: 30%;
+  width: 30em;
+  opacity: 0.5;
+}
+
+section.Introd p {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 3em;
+}
+
+section.Introd h1 {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+section.Order {
+  background: #1989A6;
+  padding: 12em;
+  height: calc(100vh-24em);
+  overflow: hidden;
+  position: relative;
+}
+
+section.Order h1 {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+section.Order .mdc-card {
+  height: calc(100vh - 30em);
+  width: calc(100vw - 60em);
+  text-align: center;
+  background-color: orange;
+}
+
+section.Order h4 {
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+}
+
+section.Order a {
+  text-decoration: none;
+}
+
+section.Contact {
+  background: #1989A6;
+  padding-top: 10em;
+  height: calc(100vh-10em);
+}
+
+section.Contact h1 {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+section.Contact .mdc-card {
+  height: calc(100vh - 30em);
+  width: calc(100vw - 60em);
+  text-align: center;
+  background-color: orange;
+}
+
+section.Contact h4 {
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+}
+
+section.Contact a {
+  text-decoration: none;
+}
+
+section.About {
+  background: #04323d;
+  padding: 12em;
+  height: calc(100vh-24em);
+  overflow: hidden;
+  position: relative;
+}
+
+section.About h1 {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+section.About .mdc-card {
+  height: calc(100vh - 30em);
+  width: calc(100vw - 60em);
+  text-align: center;
+  background-color: orange;
+}
+
+section.About h4 {
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+  padding-top: 1.5em;
+}
+
+section.About a {
+  text-decoration: none;
+}
+
+section.About p.right {
+  text-align: right;
+}
+
+section.About p.center {
+  text-align: center;
+}
+
+section.About p.first {
+  padding-top: 10em;
+}
+
+section.login {
+  background: #04323d;
+  padding-top: 10em;
+  height: calc(100vh-10em);
+}
+
+section.login h1 {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+section.login .mdc-card {
+  height: calc(100vh - 27em);
+  width: calc(100vw - 60em);
+  text-align: center;
+  background-color: #fff;
+}
+
+section.login h4 {
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+  padding-top: 1.5em;
+}
+
+section.login a {
+  text-decoration: none;
+}
+
+footer {
+  height: 20vh;
+  background: #575757;
+  padding-top: 2em;
+  padding-left: 5em;
+}
+
+footer p {
+  text-align: right;
+  padding-right: 5em;
+  background-position-y: 0;
+}
+
 @media only screen and (max-width: 600px) {
   section.intro {
     background: #04323d;
