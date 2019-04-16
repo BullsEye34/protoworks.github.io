@@ -93,7 +93,14 @@ section.visit a {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 480p) {
+section.visit .mdc-card {
+  height: calc(100vh - 30em);
+  width: calc(100vw - 60em);
+  text-align: center;
+  background-color: orange;
+}
+
+@media only screen and (max-width: 600px) {
   section.intro {
     background: #04323d;
     padding-top: 10em;
@@ -106,14 +113,14 @@ section.visit a {
   }
   section.anim {
     background: #1989A6;
-    padding: 12em;
+    padding: 11em;
     height: calc(100vh-24em);
     overflow: hidden;
     position: relative;
   }
   section.anim h1 {
     position: absolute;
-    font-size: 10em;
+    font-size: 3em;
     text-transform: uppercase;
     margin: 0;
     z-index: 1;
@@ -154,17 +161,23 @@ section.visit a {
     height: calc(100vh-10em);
   }
   section.visit h3 {
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
     margin-top: 3em;
   }
   section.visit h4 {
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
     color: #fff;
   }
   section.visit a {
     text-decoration: none;
+  }
+  section.visit .mdc-card {
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    background-color: orange;
   }
 }
 /*# sourceMappingURL=main.css.map */
